@@ -1,7 +1,13 @@
+import type { Metadata } from "next";
 import "@/styles/globals.css";
 import { Quicksand } from "next/font/google";
 
-export const quicksand = Quicksand({
+export const metadata: Metadata = {
+	title: "Siomai King Franchise | Community + Online Franchise",
+	description: "Ang Hari ng Siomai",
+};
+
+const quicksand = Quicksand({
 	display: "swap",
 	variable: "--font-quicksand",
 	subsets: ["latin"],
