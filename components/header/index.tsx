@@ -10,7 +10,7 @@ export default function Header() {
 	return (
 		<div className="flex flex-col gap-0 sticky top-0 z-100">
 			<Topbar />
-			<header className="h-20 bg-[#fff] drop-shadow-xl sticky z-100">
+			<header className="h-20 bg-[#fff] drop-shadow-xl">
 				<Container className="flex justify-between items-center">
 					<Image
 						src="/images/siomai-king-online-franchise-logo.webp"

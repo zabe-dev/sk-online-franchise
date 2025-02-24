@@ -14,9 +14,9 @@ const topbarIcons = [
 
 export default function Topbar() {
 	return (
-		<div className="h-20 sm:h-10 bg-red-900 text-white">
+		<div className="h-15 sm:h-10 bg-red-900 text-white">
 			<Container className="hidden sm:flex items-center">
-				<div className="hidden sm:flex items-center justify-around w-full gap-4 lg:justify-end">
+				<div className="hidden sm:flex items-center justify-between w-full gap-4 lg:justify-start">
 					{topbarIcons.map(({ icon: Icon, href, label }) => (
 						<Link
 							key={href}
@@ -29,7 +29,7 @@ export default function Topbar() {
 					))}
 				</div>
 			</Container>
-			<div className="sm:hidden flex items-center justify-center mx-auto w-full h-20 p-4">
+			<div className="sm:hidden flex items-center justify-center mx-auto w-full h-full p-4">
 				<Button
 					asChild
 					className="bg-transparent shadow-none hover:bg-red-800 cursor-pointer"

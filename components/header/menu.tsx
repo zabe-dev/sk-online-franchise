@@ -3,12 +3,13 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { cn } from "@/lib/utils";
-import { FaBars } from "react-icons/fa6";
+import { FaBars, FaEnvelope, FaPhone } from "react-icons/fa6";
 import {
 	Sheet,
 	SheetTrigger,
 	SheetTitle,
 	SheetContent,
+	SheetFooter,
 } from "@/components/ui/sheet";
 import { Button } from "@/components/ui/button";
 
